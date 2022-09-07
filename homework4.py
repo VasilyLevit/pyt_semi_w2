@@ -11,5 +11,5 @@ for i in range(n):
 elem_1 = numbers[int(list_num[0])]
 elem_2 = numbers[int(list_num[1])]
 mult = elem_1 * elem_2
-print('N =',numbers)
+print('N =', numbers)
 print('N[{}] * N[{}] = {}'.format(list_num[0], list_num[1], mult))
