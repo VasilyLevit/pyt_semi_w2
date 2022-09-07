@@ -2,7 +2,12 @@
 # Найдите произведение элементов на указанных пользователем через пробел позициях. (потребуется сплит)
 
 n = 5
+
+string = input('Введите 2а числа через пробел: ')
+str_list = string.split(' ', 1)
+
 for i in range(n):
     numbers = list(range(-n, n+1))
 
 print(numbers)
+print(str_list)
