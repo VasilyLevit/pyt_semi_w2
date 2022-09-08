@@ -6,5 +6,5 @@ summ = 0
 for i in range(1, k+1):
     result = (1 + 1/i)**i
     summ += result
-    print(result, end=' ')
-print(round(summ,2))
+    print(round(result,2), end=' ')
+print('\n Cумма:', round(summ,2))
